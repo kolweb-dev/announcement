@@ -1,0 +1,120 @@
+.Announcement{
+    display: flex;
+    /*justify-content: center;*/
+    width: 80%;
+    margin: 70px auto 0 auto;
+    border: 1px solid #ccc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+}
+.Announcement__edit-buttons{
+    position: absolute;
+    top: 12px;
+    right: 45px;
+}
+.Announcement__edit{
+    background-color: white;
+    border: none;
+    font-size: 17px;
+    color: #cc9a9a;
+}
+
+.Announcement__edit:hover{
+    color: #af5b5e;
+    cursor: pointer;
+}
+
+.Announcement__destoy{
+    position: absolute;
+    background-color: white;
+    border: none;
+    top: 0;
+    right: 5px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    /*margin: auto 0 auto 11px;*/
+    font-size: 27px;
+    color: #cc9a9a;
+    transition: color 0.2s ease-out;
+}
+
+.Announcement__destoy:hover{
+    color: #af5b5e;
+    cursor: pointer;
+}
+
+.Announcement__destoy::after{
+    content: 'x';
+}
+
+.Announcement__img{
+    width: 220px;
+    height: 150px;
+    border-top-left-radius: 5px;
+}
+
+.Announcement__content-text{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.Announcement__content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Announcement__content-title{
+    font-size: 17px;
+    line-height: 24px;
+    padding-right: 65px;
+
+}
+
+.Announcement__content-author b{
+    font-size: 17px;
+}
+
+.Announcement__content-author a{
+    color: #8f9296;
+    font-size: 17px;
+    transition: all .3s;
+}
+
+.Announcement__content-author a:hover{
+    color: #292c2f;
+}
+
+.Announcement__edit-input{
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100%;
+}
+
+.Announcement__more-info{
+    position: absolute;
+    top: 100px;
+    right: -25px;
+    width: 120px;
+    font-size: 12px;
+    height: 25px;
+    color: #4d4d4d;
+    border: 1px solid #4d4d4d;
+    transition: all .3s;
+    border-radius: 3px;
+}
+
+.Announcement__more-info:hover{
+    cursor: pointer;
+    background-color: #4d4d4d;
+    color: white;
+}
+
+.Announcement__more-info i{
+    margin-left: 15px;
+}

@@ -1,0 +1,21 @@
+.AnnouncementSimilar {
+    margin-top: 70px;
+}
+
+.AnnouncementSimilar__title {
+    font-weight: 500;
+    color: #070707;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.AnnouncementSimilar__inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.AnnouncementSimilar__inner div + div {
+    margin-left: 20px;
+}

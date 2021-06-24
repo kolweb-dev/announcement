@@ -1,0 +1,38 @@
+.DetailsAnnouncement {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-top: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.DetailsAnnouncement__title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.DetailsAnnouncement__text b {
+    font-size: 16px;
+}
+
+.DetailsAnnouncement__info {
+    padding: 10px;
+}
+
+.DetailsAnnouncement__inner {
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+
+.DetailsAnnouncement__inner-title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.DetailsAnnouncement__items{
+    display: flex;
+    justify-content: space-around;
+}
